@@ -14,6 +14,7 @@ class Office2pdf
 
     public function index(){
         echo "welcome office2pdf";
+        echo "haha";
     }
 
     public function office2pdf($filePath,$pdffilePath){
