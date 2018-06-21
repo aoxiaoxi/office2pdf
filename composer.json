@@ -1,0 +1,30 @@
+{
+    "name": "aoxiaoxi/office2pdf",
+    "description": "use openoffice convert office to pdf,and adding watermark",
+    "keywords": ["openoffice","office","pdf","watermark"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "aoxiaoxi",
+            "email": "823820360@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/aoxiaoxi/office2pdf"
+    },
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "src/Lib"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
