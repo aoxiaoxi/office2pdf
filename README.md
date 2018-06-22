@@ -1,2 +1,15 @@
-# office2pdf
-use openoffice convert office to pdf,and  adding watermark
+## office2pdf 
+## prepare
+1.install openoffice service and java environment  
+2.composer require aoxiaoxi/office2pdf
+
+## use
+```
+use Lib\Office2pdf;
+
+public function testComposer(){
+        $office = new Office2pdf();
+        $office->index();
+}
+```
+
