@@ -15,7 +15,6 @@ public function testComposer(){
 //office to pdf
 @param $filePath,
 @param $pdffilePath
-@return pdf file path
 $office->office2pdf($filePath,$pdffilePath)
 
 
@@ -23,7 +22,6 @@ $office->office2pdf($filePath,$pdffilePath)
 @param $waterName,
 @param $oldfilepath
 @param $newfilepath
-@return watermark file path
 $office->addwatermark($waterName,$oldfilepath,$newfilepath)
 ```
 
